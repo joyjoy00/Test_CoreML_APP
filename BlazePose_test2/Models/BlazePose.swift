@@ -42,7 +42,7 @@ class BlazePose {
             print("ld_3d:\n", prediction.featureValue(for: "ld_3d"))
             print("output_poseflag:\n", prediction.featureValue(for: "output_poseflag"))
             print("output_segmentation:\n", prediction.featureValue(for: "output_segmentation"))
-//            print("output_heatmap:\n", prediction.featureValue(for: "output_heatmap"))
+
             
         }
     }
